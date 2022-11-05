@@ -6,10 +6,13 @@ function initMap() {
     zoom: 5,
   });
 
-  const marker = new google.maps.Marker({
-    position: {lat: 37.344, lng: -100.031},
-    map: map,
-  });
+  for (let i = 0; i < markers.length; i++) {
+    const m = markers[i];
+    const marker = new google.maps.Marker({
+      position: m.position,
+      map: map,
+    });
+  }
 }
 
 window.initMap = initMap;
