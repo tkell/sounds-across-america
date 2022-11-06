@@ -14,6 +14,7 @@ function initMap() {
 
     const marker = new google.maps.Marker({
       position: m.position,
+      icon: m.icon,
       map: map,
     });
 
