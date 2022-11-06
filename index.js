@@ -8,9 +8,20 @@ function initMap() {
 
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
+    const infoWindow = new google.maps.InfoWindow({
+      content: m.html
+    });
+
     const marker = new google.maps.Marker({
       position: m.position,
       map: map,
+    });
+
+    marker.addListener("click", () => {
+      infoWindow.open({
+        anchor: marker,
+        map,
+      });
     });
   }
 }
