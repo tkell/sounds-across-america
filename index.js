@@ -1,3 +1,13 @@
+function makeInfoWindowHtml(locationName, quote, song, videoUrl) {
+  return `
+    <div>
+      <p>${locationName}</p>
+      <p>${quote}</p>
+      <p><a href="${videoUrl}" target="_blank">${song}</p>
+    </div>
+  `
+}
+
 let map;
 
 function initMap() {
@@ -10,7 +20,7 @@ function initMap() {
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
     const infoWindow = new google.maps.InfoWindow({
-      content: m.html
+      content: makeInfoWindowHtml(m.locationName, m.song, m.quote, m.videoUrl)
     });
 
     const marker = new google.maps.Marker({
