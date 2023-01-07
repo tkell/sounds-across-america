@@ -1,3 +1,6 @@
+let roadColor = "#2E5592";
+let labelColor = "#707070"
+
 let mapStyle = [
   {
     "elementType": "geometry",
@@ -11,7 +14,7 @@ let mapStyle = [
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#746855"
+        "color": labelColor
       }
     ]
   },
@@ -46,7 +49,7 @@ let mapStyle = [
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#d59563"
+        "color": labelColor
       }
     ]
   },
@@ -99,7 +102,7 @@ let mapStyle = [
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#38414e"
+        "color": roadColor
       }
     ]
   },
@@ -108,7 +111,7 @@ let mapStyle = [
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#212a37"
+        "color": roadColor
       }
     ]
   },
@@ -144,7 +147,7 @@ let mapStyle = [
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#746855"
+        "color": roadColor
       }
     ]
   },
@@ -153,7 +156,7 @@ let mapStyle = [
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#1f2835"
+        "color": roadColor
       }
     ]
   },
