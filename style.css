@@ -20,6 +20,7 @@ body {
     text-align: center;
     font-size: 48px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #e8f1ff;
 }
 
 #lightbox {
@@ -43,5 +44,5 @@ body {
     padding: 1em;
 
     /* Translucent background */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
 }
