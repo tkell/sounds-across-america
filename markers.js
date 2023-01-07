@@ -4,7 +4,7 @@ const markers = [
       locationName:  "Outside Dodge City",
       song:  "Almost Invisible",
       quote:  "you ask if it's like this / the wild ocean waves",
-      vimeoId: "393315652",
+      youtubeId: "H8lU-sW5Z7g",
       icon: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
     },
     {
@@ -12,7 +12,7 @@ const markers = [
       locationName:  "Northern Montana",
       song:  "Ellis",
       quote:  "sitting by the windowpane / watching the smoke rise out of the factory",
-      vimeoId: "303283620",
+      youtubeId: "QO1CqMKnwn8",
       icon: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
     }
 ];

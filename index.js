@@ -1,10 +1,11 @@
-function makeInfoWindowHtml(locationName, quote, song, vimeoId) {
+
+function makeInfoWindowHtml(locationName, quote, song, youtubeId) {
   return `
     <div>
       <p>${locationName}</p>
       <p>${quote}</p>
-      <p><a href="https://vimeo.com/${vimeoId}" target="_blank">${song}</p>
-      <iframe src="https://player.vimeo.com/video/${vimeoId}" width="480" height="320" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen>
+      <p>${song}</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}" title="${song}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </div>
   `
@@ -22,7 +23,7 @@ function initMap() {
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
     const infoWindow = new google.maps.InfoWindow({
-      content: makeInfoWindowHtml(m.locationName, m.song, m.quote, m.vimeoId)
+      content: makeInfoWindowHtml(m.locationName, m.song, m.quote, m.youtubeId)
     });
 
     const marker = new google.maps.Marker({
