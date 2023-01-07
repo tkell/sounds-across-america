@@ -13,6 +13,24 @@ function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
 let map;
 
 function initMap() {
+
+  let mapDisabled = false;
+  const headerText = document.getElementById("header");
+  headerText.onclick = function(){
+    const lightbox = document.getElementById("lightbox");
+    console.log(lightbox.style.display);
+    if (lightbox.style.display === "none" || lightbox.style.display === "") {
+      lightbox.style.display = "block";
+      mapDisabled = true;
+    } else {
+      lightbox.style.display = "none";
+      mapDisabled = false;
+    }
+  };
+
+
+
+
   map = new google.maps.Map(document.getElementById("map"), {
     disableDefaultUI: true,
     center: {lat: 36.8278, lng: -92.7187},
@@ -33,10 +51,9 @@ function initMap() {
     });
 
     marker.addListener("click", () => {
-      infoWindow.open({
-        anchor: marker,
-        map,
-      });
+      if (mapDisabled === false) {
+        infoWindow.open({ anchor: marker, map,});
+      }
     });
   }
 }
