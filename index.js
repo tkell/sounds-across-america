@@ -1,11 +1,10 @@
 
-function makeInfoWindowHtml(locationName, quote, song, youtubeId) {
+function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
   return `
     <div>
       <p>${locationName}</p>
-      <p>${quote}</p>
-      <p>${song}</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}" title="${song}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      <p>${blurb}</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}" title="${youtubeTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </div>
   `
@@ -23,7 +22,7 @@ function initMap() {
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
     const infoWindow = new google.maps.InfoWindow({
-      content: makeInfoWindowHtml(m.locationName, m.song, m.quote, m.youtubeId)
+      content: makeInfoWindowHtml(m.locationName, m.blurb, m.youtubeTitle, m.youtubeId)
     });
 
     const marker = new google.maps.Marker({
