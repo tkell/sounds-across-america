@@ -17,6 +17,7 @@ function initMap() {
     disableDefaultUI: true,
     center: {lat: 36.8278, lng: -92.7187},
     zoom: 5,
+    styles: mapStyle
   });
 
   for (let i = 0; i < markers.length; i++) {
