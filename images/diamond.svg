@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" id="diamond">
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" id="diamond">
 
+<g transform="scale(2)">
   <path d="
 	  M 7.03715 1.20147
 	  L 2.12542 6.7
@@ -21,6 +22,7 @@
 	  C 7.16499 1.08761 7.09409 1.13833 7.03715 1.20147
 	  Z
 	 "
-	fill="#E8F1FF"
+	fill="#F1FDFF"
   />
+</g>
 </svg>
