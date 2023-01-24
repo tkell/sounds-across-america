@@ -7,6 +7,14 @@
 }
 
 /* 
+ * Load our custom font
+ */
+@font-face {
+font-family: "Neutra-Light";
+src: url("fonts/neutra-light.otf") format("opentype");
+}
+
+/* 
  * Optional: Makes the sample page fill the window. 
  */
 html,
@@ -14,34 +22,32 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Neutra-Light", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 .location-name {
     text-align: center;
     font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .location-blurb {
     text-align: center;
     font-size: 12px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #header {
     text-align: center;
-    font-size: 48px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 56px;
     background: #e8f1ff;
 }
 
 #lightbox {
     display: none;
     text-align: center;
-    font-size: 24;
+    font-size: 28;
     width: 50%;
     margin-left: 25%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
 
     /* Overlay entire screen */
