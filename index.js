@@ -1,3 +1,7 @@
+// "Problematic Globals"
+let map;
+let mapDisabled = false;
+
 function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
   return `
     <div>
@@ -9,29 +13,25 @@ function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
   `
 }
 
-let map;
-
-function initMap() {
-  let mapDisabled = false;
-
-  const headerText = document.getElementById("header");
-  headerText.onclick = function() {
-    const lightbox = document.getElementById("lightbox");
-    if (lightbox.style.display === "none" || lightbox.style.display === "") {
-      lightbox.style.display = "block";
-      mapDisabled = true;
-    } else {
-      lightbox.style.display = "none";
-      mapDisabled = false;
-    }
-  };
-
-  const closeButton = document.getElementById("close-button");
-  closeButton.onclick = function() {
-    const lightbox = document.getElementById("lightbox");
+function toggleMap() {
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox.style.display === "none" || lightbox.style.display === "") {
+    lightbox.style.display = "block";
+    mapDisabled = true;
+  } else {
     lightbox.style.display = "none";
     mapDisabled = false;
-  };
+  }
+}
+
+// Entrypoint
+function initMap() {
+  const headerText = document.getElementById("header");
+  headerText.onclick = toggleMap;
+  const footerButton = document.getElementById("footer-info");
+  footerButton.onclick = toggleMap;
+  const closeButton = document.getElementById("close-button");
+  closeButton.onclick = toggleMap;
 
   map = new google.maps.Map(document.getElementById("map"), {
     disableDefaultUI: true,
