@@ -1,4 +1,3 @@
-
 function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
   return `
     <div>
@@ -13,12 +12,11 @@ function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
 let map;
 
 function initMap() {
-
   let mapDisabled = false;
+
   const headerText = document.getElementById("header");
-  headerText.onclick = function(){
+  headerText.onclick = function() {
     const lightbox = document.getElementById("lightbox");
-    console.log(lightbox.style.display);
     if (lightbox.style.display === "none" || lightbox.style.display === "") {
       lightbox.style.display = "block";
       mapDisabled = true;
@@ -28,8 +26,12 @@ function initMap() {
     }
   };
 
-
-
+  const closeButton = document.getElementById("close-button");
+  closeButton.onclick = function() {
+    const lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "none";
+    mapDisabled = false;
+  };
 
   map = new google.maps.Map(document.getElementById("map"), {
     disableDefaultUI: true,
@@ -55,7 +57,11 @@ function initMap() {
         infoWindow.open({ anchor: marker, map,});
       }
     });
+
   }
+  // display the lightbox on "load"
+  lightbox.style.display = "block";
+  mapDisabled = true;
 }
 
 window.initMap = initMap;
