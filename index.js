@@ -37,6 +37,7 @@ function initMap() {
     disableDefaultUI: true,
     center: {lat: 36.8278, lng: -92.7187},
     zoom: 5,
+    options: {gestureHandling: 'greedy'},
     styles: mapStyle
   });
 
