@@ -46,6 +46,7 @@ body {
     display: none;
     text-align: center;
     font-size: 28;
+    line-height: 45px;
     width: 50%;
     margin-left: 25%;
     color: #ffffff;
@@ -56,11 +57,9 @@ body {
     top: 25%;
     left: 0;
     right: 0;
-    bottom: 35%;
 
-    /* A bit of padding around image */
+    /* A bit of padding */
     padding: 1em;
-
     /* Translucent background */
     background: rgba(0, 0, 0, 0.7);
 }
