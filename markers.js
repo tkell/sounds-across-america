@@ -61,7 +61,9 @@ const markers = [
             "lng": -95.793
         },
         "locationName": "Mapleton, IA",
-        "blurb": "--",
+        "blurb": 
+      "How many husks could a corn husk husk if a corn husk could husk corn? How many husks could a corn husk husk if a corn husk could husk corn? How many husks could a corn husk husk if a corn husk could husk corn?",
+
         "youtubeId": "MXIABKvJX5Y",
         "youtubeTitle": "Corn Wine",
         "icon": "images/diamond.svg"

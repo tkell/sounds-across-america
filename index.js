@@ -2,12 +2,13 @@
 let map;
 let mapDisabled = false;
 
-function makeInfoWindowHtml(locationName, blurb, youtubeTitle, youtubeId) {
+function makeInfoWindowHtml(locationName, latLon, blurb, youtubeTitle, youtubeId) {
   return `
     <div>
       <p class="location-name">${locationName}</p>
+      <p class="latlon-blurb">${latLon}</p>
       <p class="location-blurb">${blurb}</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}?rel=0" title="${youtubeTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      <iframe class="iframe-yt-embed" width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}?rel=0" title="${youtubeTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
       </iframe>
     </div>
   `
@@ -43,8 +44,9 @@ function initMap() {
 
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
+    const latLon = `(${m.position.lat}, ${m.position.lng})`
     const infoWindow = new google.maps.InfoWindow({
-      content: makeInfoWindowHtml(m.locationName, m.blurb, m.youtubeTitle, m.youtubeId)
+      content: makeInfoWindowHtml(m.locationName, latLon, m.blurb, m.youtubeTitle, m.youtubeId)
     });
 
     const marker = new google.maps.Marker({

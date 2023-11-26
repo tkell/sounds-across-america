@@ -27,13 +27,31 @@ body {
 
 .location-name {
     text-align: center;
+    margin-top: -4px;
+    font-weight: bold;
     font-size: 16px;
+}
 
+.latlon-blurb {
+    margin: auto;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    width: 560px;
 }
 
 .location-blurb {
+    margin: auto;
+    margin-bottom: 14px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
+    width: 560px;
+}
+
+.iframe-yt-embed {
+    display:block;
+    margin: auto;
 }
 
 #header {
@@ -75,8 +93,11 @@ footer {
     left: 0;
     right: 0;
 
-    /* A bit of padding */
-    padding: 1em;
+    /* A bit of padding, less on the top and bottom*/
+    padding-top: 0.5em;
+    padding-bottom: 0.12em;
+    padding-left: 1em;
+    padding-right: 1em;
     /* Translucent background */
     background: rgba(0, 0, 0, 0.85);
 }
