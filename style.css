@@ -39,8 +39,10 @@ body {
 #header {
     text-align: center;
     font-size: 56px;
+    letter-spacing: 16px;
     background: #e8f1ff;
     padding: 1%;
+    font-weight: bold;
 }
 
 footer {
