@@ -12,6 +12,17 @@ const markers = [
     },
     {
         "position": {
+            "lat": 42.5,
+            "lng": -79.15
+        },
+        "locationName": "Silver Creek, NY",
+        "blurb": "--",
+        "youtubeId": "sKd26vUThcM",
+        "youtubeTitle": "Almost Invisible",
+        "icon": "images/diamond.svg"
+    },
+    {
+        "position": {
             "lat": 42.974,
             "lng": -71.982
         },
@@ -21,6 +32,7 @@ const markers = [
         "youtubeTitle": "Almost Invisible",
         "icon": "images/diamond.svg"
     },
+
     {
         "position": {
             "lat": 40.938,
@@ -50,8 +62,8 @@ const markers = [
         },
         "locationName": "Mapleton, IA",
         "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
+        "youtubeId": "MXIABKvJX5Y",
+        "youtubeTitle": "Corn Wine",
         "icon": "images/diamond.svg"
     },
     {
@@ -65,6 +77,7 @@ const markers = [
         "youtubeTitle": "Almost Invisible",
         "icon": "images/diamond.svg"
     },
+
     {
         "position": {
             "lat": 43.302,
@@ -73,6 +86,17 @@ const markers = [
         "locationName": "Geddes, SD",
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
+        "youtubeTitle": "Almost Invisible",
+        "icon": "images/diamond.svg"
+    },
+    {
+        "position": {
+            "lat": 43.90,
+            "lng": -102.25
+        },
+        "locationName": "Wall SD",
+        "blurb": "--",
+        "youtubeId": "DUz_KEb-QDM",
         "youtubeTitle": "Almost Invisible",
         "icon": "images/diamond.svg"
     },
