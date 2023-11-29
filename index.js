@@ -25,6 +25,24 @@ function toggleMap() {
   }
 }
 
+function makeLatLonString(marker) {
+    let latDir = 'N';
+    if (marker.position.lat < 0) {
+      latDir = 'S';
+    }
+    const roundedLat = Math.round(Math.abs(marker.position.lat) * 100) / 100;
+    const latStr = `${roundedLat}${latDir}`;
+
+    let lonDir = 'E';
+    if (marker.position.lng < 0) {
+      lonDir = 'W';
+    }
+    const roundedLng = Math.round(Math.abs(marker.position.lng) * 100) / 100;
+    const lngStr = `${roundedLng}${lonDir}`;
+
+    return `(${latStr}, ${lngStr})`;
+}
+
 // Entrypoint
 function initMap() {
   const headerText = document.getElementById("header");
@@ -44,7 +62,7 @@ function initMap() {
 
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
-    const latLon = `(${m.position.lat}, ${m.position.lng})`
+    const latLon = makeLatLonString(m);
     const infoWindow = new google.maps.InfoWindow({
       content: makeInfoWindowHtml(m.locationName, latLon, m.blurb, m.youtubeTitle, m.youtubeId)
     });
