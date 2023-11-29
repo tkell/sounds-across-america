@@ -56,8 +56,8 @@ body {
 
 #header {
     text-align: center;
-    font-size: 56px;
-    letter-spacing: 16px;
+    font-size: 4vh;
+    letter-spacing: 1vh;
     background: #e8f1ff;
     padding: 1%;
     font-weight: bold;
@@ -80,7 +80,7 @@ footer {
 #lightbox {
     display: none;
     text-align: center;
-    font-size: 28;
+    font-size: 28px;
     line-height: 45px;
     width: 50%;
     margin-left: 25%;
