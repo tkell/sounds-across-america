@@ -8,7 +8,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -19,7 +19,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "sKd26vUThcM",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -30,7 +30,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
 
     {
@@ -42,7 +42,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -53,7 +53,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -66,7 +66,7 @@ const markers = [
 
         "youtubeId": "MXIABKvJX5Y",
         "youtubeTitle": "Corn Wine",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -77,7 +77,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
 
     {
@@ -89,7 +89,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -100,7 +100,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "DUz_KEb-QDM",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -111,7 +111,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -122,7 +122,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -133,7 +133,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -144,7 +144,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -155,7 +155,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -166,7 +166,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -177,7 +177,7 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     },
     {
         "position": {
@@ -188,6 +188,6 @@ const markers = [
         "blurb": "--",
         "youtubeId": "H8lU-sW5Z7g",
         "youtubeTitle": "Almost Invisible",
-        "icon": "images/diamond.svg"
+        "icon": "diamond.svg"
     }
 ]

@@ -10,8 +10,8 @@
  * Load our custom font
  */
 @font-face {
-font-family: "Neutra-Light";
-src: url("fonts/neutra-light.otf") format("opentype");
+  font-family: "Neutra-Light";
+  src: url("./neutra-light.otf") format("opentype");
 }
 
 /* 
