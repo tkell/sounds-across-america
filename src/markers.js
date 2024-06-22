@@ -1,25 +1,27 @@
 const markers = [
     {
         "position": {
-            "lat": 43.322,
-            "lng": -70.582
+            "lat": 43.623039,
+            "lng": -70.207892
         },
-        "locationName": "Wells, ME",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
+        "locationName": "Mile 79 - Maine Foghorn",
+        "blurb": "This piece features a synth made from the sound of the Portland Head Light in Cape Elizabeth, Maine. Nevermind that it was crystal clear and sunny on the day that I recorded this foghorn. I isolated the tone from the waves in the background, mapped it to a sampler and added a splash of reverb, which led to this creation. ",
+        "youtubeId": "VPkNuea2J64 ",
+        "youtubeTitle": "Maine Foghorn",
+        "icon": "diamond.svg",
+        "releaseDate": "2024-06-01"
     },
     {
         "position": {
-            "lat": 42.5,
-            "lng": -79.15
+            "lat": 43.3126,
+            "lng": -70.6907
         },
-        "locationName": "Silver Creek, NY",
-        "blurb": "--",
-        "youtubeId": "sKd26vUThcM",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
+        "locationName": "Mile 118 - Maine Crow",
+        "blurb": "The crow was not shy of the microphone. On the second day of my trip, I stopped to record this shrieking crow in southern Maine. I was about halfway into a 93 mile ride from Yarmouth, ME to Stratham, NH. According to a thermometer on a bank in Biddeford, it was 100 degrees that day. I sang Third World’s “96 Degrees In The Shade” to myself as I rode. I turned the crow into an arpeggiated synth with the Microcosm delay pedal and made a beat using mostly sounds recorded on the bike trip. ",
+        "youtubeId": "PeqpPfVFaNQ",
+        "youtubeTitle": "Maine Crow",
+        "icon": "diamond.svg",
+        "releaseDate": "2024-06-01"
     },
     {
         "position": {
@@ -32,7 +34,6 @@ const markers = [
         "youtubeTitle": "Almost Invisible",
         "icon": "diamond.svg"
     },
-
     {
         "position": {
             "lat": 40.938,

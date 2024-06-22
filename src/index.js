@@ -60,8 +60,14 @@ function initMap() {
     styles: mapStyle
   });
 
+  const now = new Date();
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
+    const releaseDate = new Date(m.releaseDate);
+    if (releaseDate > now) {
+      continue;
+    }
+
     const latLon = makeLatLonString(m);
     const infoWindow = new google.maps.InfoWindow({
       content: makeInfoWindowHtml(m.locationName, latLon, m.blurb, m.youtubeTitle, m.youtubeId)
