@@ -8,7 +8,7 @@ function makeInfoWindowHtml(locationName, latLon, blurb, youtubeTitle, youtubeId
       <p class="location-name">${locationName}</p>
       <p class="latlon-blurb">${latLon}</p>
       <p class="location-blurb">${blurb}</p>
-      <iframe class="iframe-yt-embed" width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}?rel=0" title="${youtubeTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      <iframe class="iframe-yt-embed" width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}?rel=0" title="${youtubeTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
       </iframe>
     </div>
   `
