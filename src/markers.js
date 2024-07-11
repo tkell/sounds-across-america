@@ -80,17 +80,18 @@ const markers = [
         "youtubeTitle": "Almost Invisible",
         "icon": "diamond.svg"
     },
-
     {
         "position": {
-            "lat": 43.302,
-            "lng": -98.697
+            "lat": 42.95,
+            "lng": -97.65
         },
-        "locationName": "Geddes, SD",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
+        "locationName": "Mile 2,056 - Tabor, SD",
+        "blurb": "There is a bar in Tabor, South Dakota called the Keg. I had an interaction with some folks there that led to the composition of the song \"Slingshot.\" This is the story.",
+        "youtubeId": "C2m_NRdP2Hc",
+        "youtubeTitle": "Behind The Song: \"Slingshot\"",
+        "icon": "diamond.svg",
+        "releaseDate": "2024-07-07"
+
     },
     {
         "position": {
