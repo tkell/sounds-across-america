@@ -25,60 +25,15 @@ const markers = [
     },
     {
         "position": {
-            "lat": 42.974,
-            "lng": -71.982
+            "lat": 42.55,
+            "lng": -79.17
         },
-        "locationName": "Marcy, NY",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 40.938,
-            "lng": -85.263
-        },
-        "locationName": "Yoder, IN",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 40.831,
-            "lng": -85.335
-        },
-        "locationName": "Markle, IN",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 42.166,
-            "lng": -95.793
-        },
-        "locationName": "Mapleton, IA",
-        "blurb": 
-      "How many husks could a corn husk husk if a corn husk could husk corn? How many husks could a corn husk husk if a corn husk could husk corn? How many husks could a corn husk husk if a corn husk could husk corn?",
-
-        "youtubeId": "MXIABKvJX5Y",
-        "youtubeTitle": "Corn Wine",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 41.335,
-            "lng": -88.714
-        },
-        "locationName": "Marseille, IA",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
+        "locationName": "Mile 765 - Silver Creek, NY - Tunnel Singing",
+        "blurb": "I did a lot of singing in tunnels on this trip. Here is one of those instances from a rainy day in Silver Creek, NY near the edge of Lake Erie. In addition to the natural reverb from the tunnel, I love what happened when I made copies of the vocal and tuned those copies as harmonies. The birds and raindrops in the background of the audio multiplied in their own weird ways. I used those harmonies as the basis for the track that is excerpted here.",
+        "youtubeId": "L7j9_sXn6P8",
+        "youtubeTitle": "Tunnel Singing",
+        "icon": "diamond.svg",
+        "releaseDate": "2024-07-07"
     },
     {
         "position": {
@@ -91,105 +46,5 @@ const markers = [
         "youtubeTitle": "Behind The Song: \"Slingshot\"",
         "icon": "diamond.svg",
         "releaseDate": "2024-07-07"
-
-    },
-    {
-        "position": {
-            "lat": 43.90,
-            "lng": -102.25
-        },
-        "locationName": "Wall SD",
-        "blurb": "--",
-        "youtubeId": "DUz_KEb-QDM",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 44.41,
-            "lng": -100.045
-        },
-        "locationName": "Pierre, SD",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 44.419,
-            "lng": -100.033
-        },
-        "locationName": "Pierre, SD",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 44.291,
-            "lng": -105.504
-        },
-        "locationName": "Gillette, WY",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 43.163,
-            "lng": -107.728
-        },
-        "locationName": "Moneta, WY",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 45.926,
-            "lng": -116.122
-        },
-        "locationName": "Grangeville, ID",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 46.177,
-            "lng": -115.99
-        },
-        "locationName": "Kooskia, ID",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 45.467,
-            "lng": -116.324
-        },
-        "locationName": "Riggins, ID",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
-    },
-    {
-        "position": {
-            "lat": 44.022,
-            "lng": -124.126
-        },
-        "locationName": "Florence, OR",
-        "blurb": "--",
-        "youtubeId": "H8lU-sW5Z7g",
-        "youtubeTitle": "Almost Invisible",
-        "icon": "diamond.svg"
     }
 ]
