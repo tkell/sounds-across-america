@@ -30,7 +30,7 @@ const markers = [
         },
         "locationName": "Mile 765 - Silver Creek, NY - Tunnel Singing",
         "blurb": "I did a lot of singing in tunnels on this trip. Here is one of those instances from a rainy day in Silver Creek, NY near the edge of Lake Erie. In addition to the natural reverb from the tunnel, I love what happened when I made copies of the vocal and tuned those copies as harmonies. The birds and raindrops in the background of the audio multiplied in their own weird ways. I used those harmonies as the basis for the track that is excerpted here.",
-        "youtubeId": "L7j9_sXn6P8",
+        "youtubeId": "KssfJ7CKx0o",
         "youtubeTitle": "Tunnel Singing",
         "icon": "diamond.svg",
         "releaseDate": "2024-07-07"
@@ -42,7 +42,7 @@ const markers = [
         },
         "locationName": "Mile 2,056 - Tabor, SD",
         "blurb": "There is a bar in Tabor, South Dakota called the Keg. I had an interaction with some folks there that led to the composition of the song \"Slingshot.\" This is the story.",
-        "youtubeId": "C2m_NRdP2Hc",
+        "youtubeId": "s33RgXeJSrA",
         "youtubeTitle": "Behind The Song: \"Slingshot\"",
         "icon": "diamond.svg",
         "releaseDate": "2024-07-07"
