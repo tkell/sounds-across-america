@@ -504,5 +504,3 @@ const markers = [
         "releaseDate": "2026-08-24"
     }
 ]
-
-export default markers;
