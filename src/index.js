@@ -61,6 +61,7 @@ function initMap() {
   });
 
   const now = new Date();
+  const allInfoWindows = [];
   for (let i = 0; i < markers.length; i++) {
     const m = markers[i];
     const releaseDate = new Date(m.releaseDate);
@@ -72,6 +73,7 @@ function initMap() {
     const infoWindow = new google.maps.InfoWindow({
       content: makeInfoWindowHtml(m.locationName, latLon, m.blurb, m.youtubeTitle, m.youtubeId)
     });
+    allInfoWindows.push(infoWindow);
 
     const marker = new google.maps.Marker({
       position: m.position,
@@ -81,6 +83,10 @@ function initMap() {
 
     marker.addListener("click", () => {
       if (mapDisabled === false) {
+        for (let i = 0; i < allInfoWindows.length; i++) {
+          const w = allInfoWindows[i];
+          w.close();
+        }
         infoWindow.open({ anchor: marker, map,});
       }
     });
